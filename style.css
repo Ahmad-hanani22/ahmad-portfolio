@@ -411,6 +411,25 @@ h2 {
   transform: translateY(-2px);
 }
 
+/* Responsive: larger social icons and menu button on small screens */
+@media (max-width: 600px) {
+  .nav-social a {
+    font-size: 1.8rem;
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+  }
+  .nav-social a i {
+    font-size: 1.8rem;
+  }
+  .menu-toggle {
+    display: inline-block;
+    padding: 10px 14px;
+    font-size: 1.05rem;
+    border-radius: 12px;
+  }
+}
+
 @media (max-width: 900px) {
   .nav-right {
     gap: 10px;
