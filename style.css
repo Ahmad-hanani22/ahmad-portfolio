@@ -414,13 +414,13 @@ h2 {
 /* Responsive: larger social icons and menu button on small screens */
 @media (max-width: 600px) {
   .nav-social a {
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 56px;
     height: 56px;
     border-radius: 10px;
   }
   .nav-social a i {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .menu-toggle {
     display: inline-block;
