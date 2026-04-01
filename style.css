@@ -374,6 +374,63 @@ h2 {
   margin-bottom: 10px;
 }
 
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-social a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.nav-social a:hover {
+  color: var(--primary);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+  .nav-right {
+    gap: 10px;
+  }
+
+  .nav-social {
+    display: flex;
+    gap: 10px;
+  }
+
+  .nav-social a {
+    font-size: 1rem;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 70px;
+    flex-direction: column;
+    width: 210px;
+    background: #0c1323;
+    border: 1px solid var(--border);
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
+
 .cert-actions .btn {
   display: inline-block;
   padding: 14px 22px;
